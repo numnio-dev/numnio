@@ -74,7 +74,7 @@ Returns the PredictOps anomaly feed:
 
 ### `POST /v1/maintenance/briefs`
 
-Generate a maintenance brief for an anomaly with Claude reasoning:
+Generate a maintenance brief for an anomaly with AI reasoning:
 
 ```json
 {"anomaly_id": "an_92c1..."}
@@ -114,7 +114,7 @@ Response includes suggestions with rationale:
 
 ### `POST /v1/copilot/ask`
 
-Operator copilot endpoint (Claude agent with scoped tool access):
+Operator copilot endpoint (AI agent with scoped tool access):
 
 ```json
 {
